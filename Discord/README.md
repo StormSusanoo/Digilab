@@ -37,7 +37,7 @@ Before you begin, make sure you have:
 
 ### 1.4 Get Your Bot Token
 1. Under the "Token" section, click **"Copy"** to copy your bot token
-2. **⚠️ IMPORTANT**: Keep this token secret! Never share it publicly or commit it to version control
+2. ** IMPORTANT**: Keep this token secret! Never share it publicly or commit it to version control
 
 ## Step 2: Set Up Your Development Environment
 
@@ -100,7 +100,7 @@ const client = new Client({
 
 // When the client is ready, run this code once
 client.once('ready', () => {
-    console.log(`✅ Bot is online! Logged in as ${client.user.tag}`);
+    console.log(`Bot is online! Logged in as ${client.user.tag}`);
 });
 
 // Listen for messages
@@ -110,12 +110,12 @@ client.on('messageCreate', message => {
 
     // Respond to "hello" messages
     if (message.content.toLowerCase() === 'hello') {
-        message.reply('Hello there! 👋');
+        message.reply('Hello there!');
     }
 
     // Simple ping command
     if (message.content.toLowerCase() === '!ping') {
-        message.reply('Pong! 🏓');
+        message.reply('Pong!');
     }
 });
 
@@ -165,13 +165,13 @@ npm start
 
 If everything is set up correctly, you should see:
 ```
-✅ Bot is online! Logged in as YourBotName#1234
+Bot is online! Logged in as YourBotName#1234
 ```
 
 ### 5.2 Test Your Bot
 Go to your Discord server and try:
-- Type `hello` - the bot should respond with "Hello there! 👋"
-- Type `!ping` - the bot should respond with "Pong! 🏓"
+- Type `hello` - the bot should respond with "Hello there!"
+- Type `!ping` - the bot should respond with "Pong!"
 
 ## Common Issues & Troubleshooting
 
