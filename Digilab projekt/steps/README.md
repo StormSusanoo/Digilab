@@ -14,10 +14,9 @@ The bot calculates uptime by comparing the current time with when it first start
 
 ### Display Format
 The uptime is shown in a user-friendly format:
-- **Less than 1 minute**: "Bot has been running for 30 seconds"
 - **Minutes only**: "Bot has been running for 5 minutes"
 - **Hours and minutes**: "Bot has been running for 2 hours and 15 minutes"
-- **Days included**: "Bot has been running for 1 day, 3 hours, and 22 minutes"
+
 
 ### Reset Behavior
 Every time the Discord bot restarts (either manually or due to errors), the uptime counter automatically resets to zero. This gives an accurate picture of the current session's runtime rather than total cumulative time.

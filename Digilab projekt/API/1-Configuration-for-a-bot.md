@@ -203,12 +203,3 @@ if (message.content === '!quote') {
 **Bot doesn't respond**: Make sure you have the `MessageContent` intent enabled
 
 **CORS errors**: These don't happen in Discord bots (only in browsers)
-
-## Next Steps
-
-Once this works, you can:
-- Add more APIs (news, jokes, facts)
-- Create cooler commands with multiple parameters
-- Add slash commands instead of text commands
-- Store data in a database
-- Add rate limiting to prevent spam
